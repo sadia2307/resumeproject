@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Resume Builder</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="create.css">
+  </head>
+  <body>
+    <header>
+      Resume Builder
+      </header>
+      <article>
+        <form>
+          <section>
+            <h2>Career Objective</h2>
+            <select id="career">
+              <option select="selected" disabled>Select your Career Objective</option>
+              <option>abcd</option>
+              <option>efgh</option>
+              <option>ijkl</option>
+              <option>mnop</option>
+            </select>
+          </section>
+          <div class="parent">
+            <section>
+              <h2>Personal Information</h2>
+              <input type="text" id="name"placeholder="Name"required><br>
+              <input type="email" id="email"placeholder="Email"required><br>
+              <input type="number" id="number" placeholder="Phone Number"required>
+            </section>
+            <section>
+              <h2>Graduation Details</h2>
+              <select id="group1">
+                <option>B.Tech</option>
+                <option>B.Sc</option>
+                <option>B.Com</option>
+                <option>B.E</option>
+              </select><br>
+              <select id="branch1">
+                <option>CSE</option>
+                <option>ECE</option>
+                <option>EEE</option>
+                <option>MECH</option>
+              </select><br>
+              <input type="text" id="college1" placeholder="College name"required><br>
+              <input type="number" id="marks1" placeholder="Percentage"required>
+            </section>
+          </div>
+          <div class="parent">
+            <section>
+              <h2>Intermediate Details</h2>
+              <select id="group2">
+                <option>10+2</option>
+                <option>Diploma</option>
+              </select><br>
+              <select id="branch2">
+                <option>MPC</option>
+                <option>BIPC</option>
+                <option>MEC</option>
+                <option>CSE</option>
+                <option>ECE</option>
+                <option>EEE</option>
+                <option>MECH</option>
+              </select><br>
+              <input type="text" id="college2" placeholder="College name"required><br>
+              <input type="number" id="marks2" placeholder="Percentage"required>
+            </section>
+            <section>
+              <h2>10th Details</h2>
+              <select id="group3">
+                <option>SSC</option>
+                <option>CBSE</option>
+                <option>ICSE</option>
+              </select><br>
+              <input type="text" id="college3" placeholder="School name"required><br>
+              <input type="number" id="marks3" placeholder="Percentage"required>
+            </section>
+          </div>
+          <section>
+            <h2>Technical Details</h2>
+            <p>Note*: Details should be seperated by ,</p>
+            <input type="text" id="tech" placeholder="Technical details"required>
+          </section>
+          <button type="button" onclick="addData()">Submit</button>
+          </form>
+          </article>
+          <script type="text/javascript" src="main.js">
+
+          </script>
+  </body>
+</html>
